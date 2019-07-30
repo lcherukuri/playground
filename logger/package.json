@@ -1,0 +1,19 @@
+{
+  "name": "lcherukuri-logger",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "rm -rf types dist && tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.6.8",
+    "jest": "^24.8.0",
+    "typescript": "^3.5.3"
+  }
+}
