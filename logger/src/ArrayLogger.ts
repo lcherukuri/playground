@@ -1,4 +1,5 @@
 import { LoggerConfig } from "./custom-types";
+import { LogLevel } from "./LogLevel";
 
 export default class ArrayLogger {
     public size: number;
@@ -9,7 +10,7 @@ export default class ArrayLogger {
         this.messages = [];
     }
 
-    log(message: string) {
+    log(logLevel: LogLevel, message: string) {
         if (this.messages.length >= this.size) {
             return;
         }

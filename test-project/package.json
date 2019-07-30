@@ -13,7 +13,7 @@
     "@types/jest": "^24.0.16",
     "@types/node": "^12.6.8",
     "jest": "^24.8.0",
-    "lcherukuri-logger": "0.0.3",
+    "lcherukuri-logger": "0.0.4",
     "typescript": "^3.5.3",
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
