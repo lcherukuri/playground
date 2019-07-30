@@ -1,6 +1,6 @@
 module.exports = {
     transformIgnorePatterns: [
-        'node_modules/(?!(@sie)).+\\.js$'
+        'node_modules/(?!(lcherukuri-logger)).+\\.js$'
     ],
     transform: {
         "^.+\\.[t|j]sx?$": "babel-jest"
