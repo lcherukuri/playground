@@ -6,6 +6,7 @@ export default class ArrayLogger {
 
     constructor(config: LoggerConfig) {
         this.size = config.size;
+        this.messages = [];
     }
 
     log(message: string) {
