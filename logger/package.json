@@ -2,7 +2,8 @@
   "name": "lcherukuri-logger",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
     "build": "rm -rf types dist && tsc -p tsconfig.json"
